@@ -1,0 +1,10 @@
+/* Grid for hero page */
+.hero-page{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    background-color: #121318;
+}
+
+#Hero-title{
+    color: white;
+}
