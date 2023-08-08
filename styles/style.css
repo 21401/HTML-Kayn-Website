@@ -4,7 +4,12 @@
     grid-template-columns: 1fr 1fr ;
     background-color: #121318;
 }
-
-#Hero-title{
+#hero-img{
+    height: 100%;
+    width: auto;
+}
+#hero-title{
     color: white;
+    font-size: 100px;    
+    text-align: center;    
 }
