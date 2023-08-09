@@ -4,10 +4,7 @@
     grid-template-columns: 1fr 1fr ;
     background-color: #121318;
 }
-#hero-img{
-    height: 100%;
-    width: auto;
-}
+/* Css for hero page title */
 #hero-title{
     color: white;
     font-size: 100px;    
