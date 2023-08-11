@@ -10,3 +10,27 @@
     font-size: 100px;    
     text-align: center;    
 }
+/* Grid for review section */
+.review-grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+/* review style  */
+.review {
+    /* background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px; */
+    font-size: 30px;
+    text-align: center;} 
+
+    /* Style for seperator betwen review title and review */
+.seperator{
+    border-top: 8px solid; 
+    border-radius: 5px;
+    width: 200px;
+    color: #50D5FC;
+}
+
+/* .transition-color{
+    border-top: 10px solid#ee1515; 
+}   */
