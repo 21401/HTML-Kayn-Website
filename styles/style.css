@@ -31,6 +31,7 @@
     color: #50D5FC;
 }
 
-/* .transition-color{
-    border-top: 10px solid#ee1515; 
-}   */
+/* Transition color frrom hero page to body */
+.transition-color{
+    border-top: 15px solid#6C6C6C; 
+}  
