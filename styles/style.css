@@ -31,9 +31,27 @@
     border-radius: 5px;
     width: 200px;
     color: #50D5FC;
+    margin: auto;
 }
 
 /* Transition color frrom hero page to body */
 .transition-color{
     border-top: 15px solid#6C6C6C; 
 }  
+
+/* Grid for the footer */
+.footer{
+    display: grid;
+    background-color: #D9D9D9;
+    grid-template-columns: 2fr 9fr 1fr;
+}
+
+/* Footer title */
+.f-title{
+    font-size: large;
+}
+
+.contact{
+    text-align:right;
+    
+}
