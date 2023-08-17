@@ -1,3 +1,13 @@
+/* Resets all default margins */
+*{
+    margin: 0;
+}
+/* Margin for reviews  */
+.review-margin{
+    width: 90%;
+    margin: auto;
+}
+
 /* Grid for hero page */
 .hero-page{
     display: grid;
