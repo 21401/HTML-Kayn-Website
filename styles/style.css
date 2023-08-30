@@ -1,31 +1,36 @@
 /* Resets all default margins */
-*{
+* {
     margin: 0;
 }
+
 /* Margin for reviews  */
-.review-margin{
+.review-margin {
     width: 90%;
     margin: auto;
 }
 
 /* Grid for hero page */
-.hero-page{
+.hero-page {
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
     background-color: #121318;
 }
+
 /* Css for hero page title */
-#hero-title{
+#hero-title {
     font-family: 'Julius Sans One';
-    color: white; 
-    font-size: 100px;    
-    text-align: center;    
+    color: white;
+    font-size: 100px;
+    text-align: center;
 }
+
 /* Grid for review section */
-.review-grid{
+.review-grid {
     display: grid;
     grid-template-columns: 1fr 2fr;
+    gap: 50px;
 }
+
 /* review style  */
 .review {
     /* background-color: rgba(255, 255, 255, 0.8);
@@ -33,11 +38,12 @@
     padding: 20px; */
     font-family: 'Julius Sans One';
     font-size: 30px;
-    text-align: center;} 
+    text-align: center;
+}
 
-    /* Style for seperator betwen review title and review */
-.seperator{
-    border-top: 8px solid; 
+/* Style for seperator betwen review title and review */
+.seperator {
+    border-top: 8px solid;
     border-radius: 5px;
     width: 200px;
     color: #50D5FC;
@@ -45,23 +51,22 @@
 }
 
 /* Transition color frrom hero page to body */
-.transition-color{
-    border-top: 15px solid#6C6C6C; 
-}  
+.transition-color {
+    border-top: 15px solid #6C6C6C;
+}
 
 /* Grid for the footer */
-.footer{
+.footer {
     display: grid;
     background-color: #D9D9D9;
     grid-template-columns: 2fr 9fr 1fr;
 }
 
-/* Footer title */
-.f-title{
-    font-size: large;
+.contact {
+    text-align: right;
+
 }
 
-.contact{
-    text-align:right;
-    
+.footer-text {
+    text-align: center;
 }
